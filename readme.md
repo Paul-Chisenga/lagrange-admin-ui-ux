@@ -168,38 +168,32 @@ flowchart LR
 
 ``` text
 ┌────────────────────────────────────────────────────────────────────────────────────────────────────────┐
-│ [LAGRANGE LOGO]   [🔍 Global Search (⌘K)...                           ]   [🔔 8]  [⚙️]  [Admin Profile ▾] │
+│ [LAGRANGE LOGO]   [Global Search (Cmd+K)...                           ]   [Notifications: 8]  [Admin Profile ▾] │
 ├──────────────────────┬─────────────────────────────────────────────────────────────────────────────────┤
 │ SIDEBAR NAVIGATION   │ BREADCRUMBS: Projects / Mumbwa Forest / Trees / TREE-MUM-000001                 │
 │                      ├─────────────────────────────────────────────────────────────────────────────────┤
-│ 📊 Dashboard         │ PAGE HEADER                                                                     │
-│                      │ TREE-MUM-000001                          [Badge: Planted] [Badge: Active]       │
-│ 🧑‍🌾 Tree Planters   │ Mango Seedling • Mumbwa Community Forest         [+ Log Care] [Edit] [Actions ▾]│
-│   • All Planters     ├─────────────────────────────────────────────────────────────────────────────────┤
-│   • Verification (34)│ TABS: [ Overview ] [ Planting Record ] [ Care Logs ] [ Carbon ] [ History ]      │
-│   • Update Reqs (12) ├─────────────────────────────────────────────────────────────────────────────────┤
-│                      │                                                                                 │
-│ 📁 Projects          │ PAGE CONTENT AREA                                                               │
-│                      │                                                                                 │
-│ 🌳 Trees             │                                                                                 │
+│ Dashboard            │ PAGE HEADER                                                                     │
+│ Tree Planters        │ TREE-MUM-000001                          [Badge: Planted] [Badge: Active]       │
+│   • All Planters     │ Mango Seedling • Mumbwa Community Forest         [+ Log Care] [Edit] [Actions ▾]│
+│   • Verification (34)├─────────────────────────────────────────────────────────────────────────────────┤
+│   • Update Reqs (12) │ TABS: [ Overview ] [ Planting Record ] [ Care Logs ] [ Carbon ] [ History ]      │
+│                      ├─────────────────────────────────────────────────────────────────────────────────┤
+│ Projects             │ PAGE CONTENT AREA                                                               │
+│ Trees                │                                                                                 │
 │   • All Trees        │                                                                                 │
 │   • Generate Trees   │                                                                                 │
 │   • Assignments      │                                                                                 │
-│                      │                                                                                 │
-│ 🌿 Tree Planting     │                                                                                 │
+│ Tree Planting        │                                                                                 │
 │   • Planting Records │                                                                                 │
 │   • Care Logs        │                                                                                 │
-│                      │                                                                                 │
-│ 🪙 Carbon Credits    │                                                                                 │
-│                      │                                                                                 │
-│ 🛒 Marketplace       │                                                                                 │
+│ Carbon Credits       │                                                                                 │
+│ Marketplace          │                                                                                 │
 │   • Carbon Buyers    │                                                                                 │
 │   • Listings         │                                                                                 │
 │   • Purchases        │                                                                                 │
-│                      │                                                                                 │
-│ 👥 Admin Users       │                                                                                 │
-│ 📜 Audit Logs        │                                                                                 │
-│ ⚙️ Settings           │                                                                                 │
+│ Admin Users          │                                                                                 │
+│ Audit Logs           │                                                                                 │
+│ Settings             │                                                                                 │
 └──────────────────────┴─────────────────────────────────────────────────────────────────────────────────┘
 ```
 
@@ -257,22 +251,22 @@ Supports instantaneous search across all system entities with categorized group 
 
 ``` text
 ┌────────────────────────────────────────────────────────────────────────┐
-│ 🔍  Search by Planter name, Tree ID, Project, Carbon Credit, Buyer... │
+│ Search by Planter name, Tree ID, Project, Carbon Credit, Buyer...     │
 ├────────────────────────────────────────────────────────────────────────┤
 │ TREE PLANTERS                                                          │
-│   👤 John Banda — Mumbwa District (Verified)                           │
-│   👤 Mary Phiri — Lusaka District (Pending Verification)               │
+│   John Banda — Mumbwa District (Verified)                              │
+│   Mary Phiri — Lusaka District (Pending Verification)                  │
 │                                                                        │
 │ TREES                                                                  │
-│   🌳 TREE-MUM-000001 — Mango (Planted • Mumbwa Community Forest)      │
-│   🌳 TREE-MUM-000002 — Acacia (Available • Mumbwa Community Forest)    │
+│   TREE-MUM-000001 — Mango (Planted • Mumbwa Community Forest)          │
+│   TREE-MUM-000002 — Acacia (Available • Mumbwa Community Forest)        │
 │                                                                        │
 │ PROJECTS                                                               │
-│   📁 Mumbwa Community Forest — Central Province (Active)               │
+│   Mumbwa Community Forest — Central Province (Active)                  │
 │                                                                        │
 │ CARBON CREDITS & PURCHASES                                             │
-│   🪙 CC-2026-MUM-0042 — 500 tCO₂e (Available)                          │
-│   🛒 PUR-000123 — ABC Corporation ($12,500 • Completed)                │
+│   CC-2026-MUM-0042 — 500 tCO₂e (Available)                             │
+│   PUR-000123 — ABC Corporation ($12,500 • Completed)                   │
 └────────────────────────────────────────────────────────────────────────┘
 ```
 
@@ -295,7 +289,7 @@ The Dashboard Home is an **operational command center** designed to immediately 
 ┌───────────────────────────┐  ┌───────────────────────────┐  ┌───────────────────────────┐  ┌───────────────────────────┐
 │ TOTAL TREE PLANTERS       │  │ PENDING VERIFICATION      │  │ ACTIVE PROJECTS           │  │ TOTAL TREES PLANTED       │
 │ 1,248                     │  │ 34                        │  │ 18                        │  │ 12,458                    │
-│ ↗ +24 this month          │  │ ⚠️ Needs Attention        │  │ 2 starting soon           │  │ 94.2% survival rate       │
+│ +24 this month            │  │ Needs Attention           │  │ 2 starting soon           │  │ 94.2% survival rate       │
 └───────────────────────────┘  └───────────────────────────┘  └───────────────────────────┘  └───────────────────────────┘
 ┌───────────────────────────┐  ┌───────────────────────────┐  ┌───────────────────────────┐  ┌───────────────────────────┐
 │ ACTIVE GROWING TREES      │  │ TOTAL CARBON GENERATED    │  │ AVAILABLE CREDITS         │  │ MARKETPLACE REVENUE       │
@@ -309,7 +303,7 @@ A prioritized interactive list of pending administrative tasks:
 
 ``` text
 ┌────────────────────────────────────────────────────────────────────────────────────────────────────────┐
-│ ⚠️ REQUIRES ATTENTION                                                                                 │
+│ REQUIRES ATTENTION                                                                                     │
 ├────────────────────────────────────────────────────────────────────────────────────────────────────────┤
 │ [34] Tree Planters awaiting identity & location verification                [ Review Queue ➔ ]        │
 │ [12] Profile update requests awaiting admin review                          [ Review Requests ➔ ]     │
@@ -340,10 +334,10 @@ Manage registered tree planters, review verification status, and monitor plantin
 
 ☐ Planter Name      Location           Status      Verification   Assigned Trees   Planted   Joined Date   Actions
 ───────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
-☐ John Banda        Mumbwa, Central    Active      ✅ Verified    24               22        12 Mar 2026   [View Details]
-☐ Mary Phiri        Lusaka, Lusaka     Pending     🟡 Pending     10               0         19 Sep 2026   [Review KYC]
-☐ Peter Zulu        Kabwe, Central     Active      ✅ Verified    31               31        04 Feb 2026   [View Details]
-☐ Grace Mwansa      Chibombo, Central  Suspended   🔴 Rejected    0                0         10 Jan 2026   [View Details]
+☐ John Banda        Mumbwa, Central    Active      Verified       24               22        12 Mar 2026   [View Details]
+☐ Mary Phiri        Lusaka, Lusaka     Pending     Pending        10               0         19 Sep 2026   [Review KYC]
+☐ Peter Zulu        Kabwe, Central     Active      Verified       31               31        04 Feb 2026   [View Details]
+☐ Grace Mwansa      Chibombo, Central  Suspended   Rejected       0                0         10 Jan 2026   [View Details]
 
 Showing 1–25 of 1,248 tree planters                                              [ < Prev ] [ 1 ] 2  3 [ Next > ]
 ```
@@ -377,10 +371,10 @@ Review, validate, or reject submitted KYC documents and geographic locations.
 
 ☐ Planter Name      Location           Personal   Location   ID Docs    Submitted      Status        Action
 ───────────────────────────────────────────────────────────────────────────────────────────────────────────────────
-☐ John Banda        Mumbwa, Central    ✅ Valid   ✅ Valid   🟡 Pending 20 Sep 10:14   🟡 Pending    [Review KYC ➔]
-☐ Mary Phiri        Lusaka, Lusaka     ✅ Valid   🟡 Pending 🟡 Pending 19 Sep 16:30   🟡 Pending    [Review KYC ➔]
-☐ Peter Zulu        Kabwe, Central     ✅ Valid   ⚠️ Flagged ✅ Valid   18 Sep 11:20   🔴 Incomplete [Review KYC ➔]
-☐ Esther Mwale      Chongwe, Lusaka    🟡 Pending 🟡 Pending 🟡 Pending 18 Sep 09:05   🟡 Pending    [Review KYC ➔]
+☐ John Banda        Mumbwa, Central    Valid      Valid      Pending    20 Sep 10:14   Pending       [Review KYC ➔]
+☐ Mary Phiri        Lusaka, Lusaka     Valid      Pending    Pending    19 Sep 16:30   Pending       [Review KYC ➔]
+☐ Peter Zulu        Kabwe, Central     Valid      Flagged    Valid      18 Sep 11:20   Incomplete    [Review KYC ➔]
+☐ Esther Mwale      Chongwe, Lusaka    Pending    Pending    Pending    18 Sep 09:05   Pending       [Review KYC ➔]
 
 Showing 1–4 of 34 pending verifications                                          [ < Prev ] [ 1 ] 2 [ Next > ]
 ```
@@ -399,33 +393,33 @@ A dedicated split-view validation interface where administrators independently i
 │ VERIFICATION PROGRESS: [■■■■■■■■■■■■■■■■■□□□□□□□□] 2 of 3 Sections Approved                            │
 ├────────────────────────────────────────────────────────────────────────────────────────────────────────┤
 │                                                                                                        │
-│ 1. PERSONAL INFORMATION                                                          STATUS: [✅ VERIFIED]  │
+│ 1. PERSONAL INFORMATION                                                          STATUS: [VERIFIED]     │
 │    Full Name:       John Banda                   Date of Birth: 15 March 1990                          │
 │    Email:           john@example.com             Gender:        Male                                   │
 │    Phone:           +260 97 123 4567             NRC/ID No:     348291/10/1                            │
 │                                                                           [ Reject ] [ Edit ] [ Verify ]│
 ├────────────────────────────────────────────────────────────────────────────────────────────────────────┤
 │                                                                                                        │
-│ 2. ADMINISTRATIVE LOCATION & GPS PIN                                             STATUS: [✅ VERIFIED]  │
+│ 2. ADMINISTRATIVE LOCATION & GPS PIN                                             STATUS: [VERIFIED]     │
 │    Province:   Central           District:  Mumbwa                                                     │
 │    Chiefdom:   Moono             Village:   Kabulwebulwe                                               │
 │    GPS Coordinates: -15.02341, 27.91234                                                                │
 │    ┌────────────────────────────────────────────────────────────────┐                                  │
 │    │  [MAP VIEW: Showing submitted planter pin vs. Project boundary]│                                  │
-│    │                           📍 (Planter Location)                │                                  │
+│    │                           [Planter Location Pin]               │                                  │
 │    └────────────────────────────────────────────────────────────────┘     [ Reject ] [ Edit ] [ Verify ]│
 ├────────────────────────────────────────────────────────────────────────────────────────────────────────┤
 │                                                                                                        │
-│ 3. IDENTITY DOCUMENTS                                                            STATUS: [🟡 PENDING]   │
+│ 3. IDENTITY DOCUMENTS                                                            STATUS: [PENDING]      │
 │    Document Type: National Registration Card (NRC)                                                     │
 │    ┌───────────────────────────┐    ┌───────────────────────────┐                                      │
 │    │                           │    │                           │                                      │
 │    │     [NRC FRONT/BACK]      │    │     [PASSPORT PHOTO]      │                                      │
 │    │                           │    │                           │                                      │
 │    └───────────────────────────┘    └───────────────────────────┘                                      │
-│    [ 🔍 Zoom Document Full-Size ]   [ 🔍 Zoom Photo Full-Size ]                                        │
+│    [ Zoom Document Full-Size ]      [ Zoom Photo Full-Size ]                                           │
 │                                                                                                        │
-│    Document Verification Actions:                                 [ ❌ Reject Document ] [ ✅ Verify ID ]│
+│    Document Verification Actions:                                           [ Reject ID ] [ Verify ID ]│
 ├────────────────────────────────────────────────────────────────────────────────────────────────────────┤
 │ FINAL DECISION:                                                    [ Reject All with Reason ] [ Approve KYC ]│
 └────────────────────────────────────────────────────────────────────────────────────────────────────────┘
@@ -471,15 +465,15 @@ When an administrator opens a request from the queue, a side-by-side comparison 
 ├────────────────────────────────────────────────────────────────────────────────────────────────────────┤
 │ FIELD                    CURRENT VALUE                     REQUESTED NEW VALUE                         │
 ├────────────────────────────────────────────────────────────────────────────────────────────────────────┤
-│ District                 Chongwe                           Mumbwa                      [CHANGED 🟡]   │
-│ Chiefdom                 Nkomeshya                         Moono                       [CHANGED 🟡]   │
-│ Village                  Shantumbu                         Kabulwebulwe                [CHANGED 🟡]   │
+│ District                 Chongwe                           Mumbwa                      [CHANGED]       │
+│ Chiefdom                 Nkomeshya                         Moono                       [CHANGED]       │
+│ Village                  Shantumbu                         Kabulwebulwe                [CHANGED]       │
 │ Phone Number             +260 97 123 4567                  +260 97 123 4567            (Unchanged)     │
 ├────────────────────────────────────────────────────────────────────────────────────────────────────────┤
 │ REJECTION NOTE (Required if rejected):                                                                 │
 │ [Enter feedback reason sent to planter's mobile app...                                               ] │
 │                                                                                                        │
-│                                                     [ ❌ Reject Request ]  [ ✅ Approve Profile Update ] │
+│                                                     [ Reject Request ]     [ Approve Profile Update ]  │
 └────────────────────────────────────────────────────────────────────────────────────────────────────────┘
 ```
 
@@ -515,9 +509,9 @@ Kafue Basin Reforestation  Kafue, Lusaka      Planning  0          10,000      0
 │ SEARCH LOCATION: [ Mumbwa Central Forest Area...                    ] │
 ├───────────────────────────────────────────────────────────────────────┤
 │                                                                       │
-│               🗺️ INTERACTIVE MAP (Satellite / Streets)                │
+│                 INTERACTIVE MAP (Satellite / Streets)                 │
 │                                                                       │
-│                           📍 Planting Site Pin                        │
+│                         [Planting Site Pin]                           │
 │                         (-15.02341, 27.91234)                         │
 │                                                                       │
 └───────────────────────────────────────────────────────────────────────┘
@@ -567,7 +561,7 @@ Administrators generate serialized batches of unique tree identifiers for a spec
 │ Quantity to Generate:         [ 5000 ] (Max 50,000 per batch)                                          │
 │ Identifier Prefix:            [ TREE-MUM- ] ➔ Preview: TREE-MUM-000001 to TREE-MUM-005000              │
 ├────────────────────────────────────────────────────────────────────────────────────────────────────────┤
-│ ⚠️ CONFIRMATION NOTICE:                                                                                │
+│ CONFIRMATION NOTICE:                                                                                   │
 │ You are about to permanently generate 5,000 unique tree records. These IDs will be locked and          │
 │ formatted for QR-tag assignment and mobile NFC/QR scanning.                                           │
 │                                                                                                        │
@@ -605,7 +599,7 @@ Select Trees:
 
 Select Tree Planter:
 [ Search verified planter by name, ID or phone... ]
-Selected Planter: 👤 John Banda (Verified • Eligible • 24 active trees)
+Selected Planter: John Banda (Verified • Eligible • 24 active trees)
 
 Selected: 3 Trees to assign to John Banda
 
@@ -631,7 +625,7 @@ When a tree planter plants an assigned seedling in the field, they log a **Tree 
 - Project Name & Geolocation (GPS Lat/Lng of planting hole)
 - Planting Timestamp
 - Baseline Height (cm) & Baseline Stem Diameter (cm)
-- Initial Baseline Photo
+- Initial Baseline Photo and Video
 
 ---
 
@@ -643,12 +637,12 @@ When a tree planter plants an assigned seedling in the field, they log a **Tree 
 - **Timestamp & Planter ID**
 - **Tree ID & Project Reference**
 - **Care Activities Executed (Multi-Select):**
-  - 💧 Watering
-  - 🌿 Weeding & Clearing
-  - ✂️ Pruning & Staking
-  - 🛡️ Pest / Disease Treatment
-  - 🪵 Mulching & Fertilizing
-  - 🚧 Fence / Animal Protection Maintenance
+  - Watering
+  - Weeding & Clearing
+  - Pruning & Staking
+  - Pest / Disease Treatment
+  - Mulching & Fertilizing
+  - Fence / Animal Protection Maintenance
 - **Growth & Health Measurements:**
   - Tree Height (in centimeters, e.g., $48\text{ cm}$)
   - Stem Diameter (in millimeters/centimeters, e.g., $1.4\text{ cm}$)
@@ -662,11 +656,11 @@ Aggregated feed of field care submissions and growth measurement logs.
 
 [Search by Tree ID, Planter...   ] [Filter: Project ▾] [Activity: All ▾] [Health: All ▾] [Date Range ▾]
 
-Date & Time      Tree ID           Planter        Care Activities Done     Height   Diameter  Health     Photo     Action
+Date & Time      Tree ID           Planter        Care Activities Done     Height   Diameter  Health   Photo        Action
 ─────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
-20 Sep 2026 09:15 TREE-MUM-000001  John Banda     💧 Watered, 🌿 Weeded    48 cm    1.4 cm    🟢 Good    [📷 View] [Details]
-18 Sep 2026 14:30 TREE-MUM-000002  John Banda     💧 Watered, 🛡️ Pest Ctrl 36 cm    1.1 cm    🟡 Mild    [📷 View] [Details]
-17 Sep 2026 11:00 TREE-CHG-000412  Mary Phiri     💧 Watered, 🪵 Mulched   62 cm    1.9 cm    🟢 Good    [📷 View] [Details]
+20 Sep 2026 09:15 TREE-MUM-000001  John Banda     Watered, Weeded          48 cm    1.4 cm    Good     [View Photo] [Details]
+18 Sep 2026 14:30 TREE-MUM-000002  John Banda     Watered, Pest Ctrl       36 cm    1.1 cm    Mild     [View Photo] [Details]
+17 Sep 2026 11:00 TREE-CHG-000412  Mary Phiri     Watered, Mulched         62 cm    1.9 cm    Good     [View Photo] [Details]
 ```
 
 ---
@@ -687,9 +681,9 @@ HEIGHT OVER TIME (cm)                                  STEM DIAMETER OVER TIME (
     15 Aug   01 Sep   15 Sep                              15 Aug   01 Sep   15 Sep
 
 LOGGED CARE & MEASUREMENT HISTORY:
-• 15 Sep 2026: Height 47 cm (+4 cm) | Diameter 1.4 cm | Care: 💧 Watered, ✂️ Pruned | Condition: Excellent [View Log]
-• 08 Sep 2026: Height 43 cm (+3 cm) | Diameter 1.3 cm | Care: 💧 Watered, 🌿 Weeded | Condition: Good      [View Log]
-• 01 Sep 2026: Height 40 cm (Baseline)| Diameter 1.2 cm | Care: 💧 Planted, 🪵 Mulched | Condition: Good    [View Log]
+• 15 Sep 2026: Height 47 cm (+4 cm) | Diameter 1.4 cm | Care: Watered, Pruned  | Condition: Excellent [View Log]
+• 08 Sep 2026: Height 43 cm (+3 cm) | Diameter 1.3 cm | Care: Watered, Weeded  | Condition: Good      [View Log]
+• 01 Sep 2026: Height 40 cm (Baseline)| Diameter 1.2 cm | Care: Planted, Mulched| Condition: Good      [View Log]
 ```
 
 ---
@@ -707,12 +701,12 @@ Planters are required to perform and log care routines at least **4 times per we
 │ CURRENT WEEK ACTIVITY MATRIX:                                                                          │
 │ Tree ID          Mon         Tue         Wed         Thu         Fri         Sat         Weekly Score  │
 │ ───────────────────────────────────────────────────────────────────────────────────────────────────────│
-│ TREE-MUM-000001  ✅ Watered  ✅ Weeded   ❌ Missed   ✅ Watered  ✅ Pruned   —           4 / 4 (100%)  │
-│ TREE-MUM-000002  ✅ Watered  ❌ Missed   ❌ Missed   ✅ Watered  ❌ Missed   —           2 / 4 (50% ⚠️)│
+│ TREE-MUM-000001  Watered     Weeded      Missed      Watered     Pruned      —           4 / 4 (100%)  │
+│ TREE-MUM-000002  Watered     Missed      Missed      Watered     Missed      —           2 / 4 (50% !) │
 │                                                                                                        │
-│ ⚠️ EXCEPTION ALERT:                                                                                    │
+│ EXCEPTION ALERT:                                                                                       │
 │ 4 trees under John Banda have received less than 3 care logs this week.                                │
-│ [ ✉️ Send App Reminder Notification ]  [ Assign Field Extension Officer ]                               │
+│ [ Send App Reminder Notification ]  [ Assign Field Extension Officer ]                                 │
 └────────────────────────────────────────────────────────────────────────────────────────────────────────┘
 ```
 
@@ -767,7 +761,7 @@ Displays corporate and individual buyers purchasing carbon offsets:
 
 ``` text
 ┌────────────────────────────────────────────────────────────────────────────────────────────────────────┐
-│ PURCHASE ORDER: PUR-000123                                                   Status: [✅ COMPLETED]    │
+│ PURCHASE ORDER: PUR-000123                                                   Status: [COMPLETED]       │
 │ Buyer: ABC Sustainable Tech Corp               Transaction Date: 20 September 2026                     │
 ├────────────────────────────────────────────────────────────────────────────────────────────────────────┤
 │ ORDER SUMMARY:                                                                                         │
@@ -780,7 +774,7 @@ Displays corporate and individual buyers purchasing carbon offsets:
 │ Underlying Trees:        1,250 Trees contributing (TREE-MUM-000001 through TREE-MUM-001250)             │
 │ Growth Logs Verified:    5,400 verified Care Logs submitted by 42 local tree planters                  │
 │                                                                                                        │
-│ [ 📄 Download Certificate PDF ]  [ 🔗 View Audit Trail ]  [ 🌳 View Contributing Trees (1,250) ]        │
+│ [ Download Certificate PDF ]  [ View Audit Trail ]  [ View Contributing Trees (1,250) ]                │
 └────────────────────────────────────────────────────────────────────────────────────────────────────────┘
 ```
 
@@ -836,15 +830,15 @@ All tabular views in the dashboard must follow consistent design rules:
 
 ``` text
 ┌────────────────────────────────────────────────────────────────────────────────────────────────────────┐
-│ [🔍 Search table contents...                 ] [Filter 1 ▾] [Filter 2 ▾] [Columns ▾]   [Bulk Action ▾] │
+│ [Search table contents...                    ] [Filter 1 ▾] [Filter 2 ▾] [Columns ▾]   [Bulk Action ▾] │
 ├────────────────────────────────────────────────────────────────────────────────────────────────────────┤
 │ 3 items selected                                               [ Assign Selected ] [ Export Selected ]│
 ├────────────────────────────────────────────────────────────────────────────────────────────────────────┤
 │ ☐   IDENTIFIER ↕       NAME / TITLE ↕       LOCATION ↕       STATUS ↕       METRIC ↕       ACTIONS   │
 ├────────────────────────────────────────────────────────────────────────────────────────────────────────┤
-│ ☑   TREE-MUM-000001    Mango Seedling       Mumbwa           🟢 Planted     0.12 tCO₂e     [View ➔]  │
-│ ☑   TREE-MUM-000002    Acacia Seedling      Mumbwa           🟢 Planted     0.09 tCO₂e     [View ➔]  │
-│ ☑   TREE-MUM-000003    Mahogany             Mumbwa           🟡 Available   0.00 tCO₂e     [Assign ➔]│
+│ ☑   TREE-MUM-000001    Mango Seedling       Mumbwa           Planted        0.12 tCO₂e     [View ➔]  │
+│ ☑   TREE-MUM-000002    Acacia Seedling      Mumbwa           Planted        0.09 tCO₂e     [View ➔]  │
+│ ☑   TREE-MUM-000003    Mahogany             Mumbwa           Available      0.00 tCO₂e     [Assign ➔]│
 ├────────────────────────────────────────────────────────────────────────────────────────────────────────┤
 │ Showing 1–25 of 1,248 items                                    Page [ 1 ] of 50  [ < Prev ] [ Next > ] │
 └────────────────────────────────────────────────────────────────────────────────────────────────────────┘
@@ -881,7 +875,7 @@ Never display a bare empty table. Provide an informative illustration, clear mes
 ``` text
 ┌───────────────────────────────────────────────────────────────────────┐
 │                                                                       │
-│                           📁 (Illustration)                           │
+│                           (Illustration)                              │
 │                          NO PROJECTS FOUND                            │
 │                                                                       │
 │       There are no active reforestation projects matching your        │
@@ -897,11 +891,11 @@ Explain clearly what happened and provide an immediate actionable recovery butto
 
 ``` text
 ┌───────────────────────────────────────────────────────────────────────┐
-│                     ⚠️ UNABLE TO LOAD CARE LOGS                       │
+│                     UNABLE TO LOAD CARE LOGS                          │
 │      A connection timeout occurred while communicating with the       │
 │      carbon calculation engine. Your session remains authenticated.    │
 │                                                                       │
-│                         [ 🔄 Retry Request ]                          │
+│                         [ Retry Request ]                             │
 └───────────────────────────────────────────────────────────────────────┘
 ```
 
@@ -909,7 +903,7 @@ Explain clearly what happened and provide an immediate actionable recovery butto
 
 ``` text
 ┌───────────────────────────────────────────────────────────────────────┐
-│ 🔴 SUSPEND TREE PLANTER ACCOUNT?                                      │
+│ SUSPEND TREE PLANTER ACCOUNT?                                         │
 ├───────────────────────────────────────────────────────────────────────┤
 │ Are you sure you want to suspend John Banda (TP-00912)?               │
 │                                                                       │
@@ -936,9 +930,9 @@ Always display the complete hierarchical path from root directory to entity:
 
 ### 17.2 Status Badge Standardization
 Use consistent semantic color styling across all badges:
-- 🟢 **Success / Verified / Active / Planted / Completed** (Green pill)
-- 🟡 **Pending / Under Review / In Progress / Reserved** (Amber / Yellow pill)
-- 🔴 **Rejected / Suspended / Failed / Dead / Inactive** (Red pill)
-- 🔵 **Available / Unassigned / Listed** (Blue / Cyan pill)
-- ⚪ **Archived / Retired / Draft** (Neutral Slate pill)
+- **Success / Verified / Active / Planted / Completed** (Green pill)
+- **Pending / Under Review / In Progress / Reserved** (Amber / Yellow pill)
+- **Rejected / Suspended / Failed / Dead / Inactive** (Red pill)
+- **Available / Unassigned / Listed** (Blue / Cyan pill)
+- **Archived / Retired / Draft** (Neutral Slate pill)
 

@@ -173,24 +173,31 @@ flowchart LR
 │ SIDEBAR NAVIGATION   │ BREADCRUMBS: Projects / Mumbwa Forest / Trees / TREE-MUM-000001                 │
 │                      ├─────────────────────────────────────────────────────────────────────────────────┤
 │ Dashboard            │ PAGE HEADER                                                                     │
+|                      |                                                                                 |
 │ Tree Planters        │ TREE-MUM-000001                          [Badge: Planted] [Badge: Active]       │
 │   • All Planters     │ Mango Seedling • Mumbwa Community Forest         [+ Log Care] [Edit] [Actions ▾]│
 │   • Verification (34)├─────────────────────────────────────────────────────────────────────────────────┤
 │   • Update Reqs (12) │ TABS: [ Overview ] [ Planting Record ] [ Care Logs ] [ Carbon ] [ History ]      │
 │                      ├─────────────────────────────────────────────────────────────────────────────────┤
 │ Projects             │ PAGE CONTENT AREA                                                               │
+|                      |                                                                                 |
 │ Trees                │                                                                                 │
 │   • All Trees        │                                                                                 │
 │   • Generate Trees   │                                                                                 │
 │   • Assignments      │                                                                                 │
+|                      |                                                                                 |
 │ Tree Planting        │                                                                                 │
 │   • Planting Records │                                                                                 │
 │   • Care Logs        │                                                                                 │
+|                      |                                                                                 |
 │ Carbon Credits       │                                                                                 │
 │ Marketplace          │                                                                                 │
 │   • Carbon Buyers    │                                                                                 │
 │   • Listings         │                                                                                 │
 │   • Purchases        │                                                                                 │
+|                      |                                                                                 |
+|                      |                                                                                 |
+|                      |                                                                                 |
 │ Admin Users          │                                                                                 │
 │ Audit Logs           │                                                                                 │
 │ Settings             │                                                                                 │

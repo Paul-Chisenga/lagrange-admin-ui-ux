@@ -180,7 +180,13 @@ flowchart LR
 │   • Update Reqs (12) │ TABS: [ Overview ] [ Planting Record ] [ Care Logs ] [ Carbon ] [ History ]      │
 │                      ├─────────────────────────────────────────────────────────────────────────────────┤
 │ Projects             │ PAGE CONTENT AREA                                                               │
-|                      |                                                                                 |
+|    .aLL pROJECTS
+     . Create Project                  |
+
+  Species
+     .All Species
+     . Create Species                                                                                 |
+
 │ Trees                │                                                                                 │
 │   • All Trees        │                                                                                 │
 │   • Generate Trees   │                                                                                 │
@@ -404,17 +410,14 @@ A dedicated split-view validation interface where administrators independently i
 │    Full Name:       John Banda                   Date of Birth: 15 March 1990                          │
 │    Email:           john@example.com             Gender:        Male                                   │
 │    Phone:           +260 97 123 4567             NRC/ID No:     348291/10/1                            │
-│                                                                           [ Reject ] [ Edit ] [ Verify ]│
+│                                                                           [ Reject ] [ Ediify ]│
 ├────────────────────────────────────────────────────────────────────────────────────────────────────────┤
 │                                                                                                        │
-│ 2. ADMINISTRATIVE LOCATION & GPS PIN                                             STATUS: [VERIFIED]     │
+│ 2. ADMINISTRATIVE LOCATION & GPS                                       STAT          S: [VERIFIED]     │
 │    Province:   Central           District:  Mumbwa                                                     │
 │    Chiefdom:   Moono             Village:   Kabulwebulwe                                               │
-│    GPS Coordinates: -15.02341, 27.91234                                                                │
-│    ┌────────────────────────────────────────────────────────────────┐                                  │
-│    │  [MAP VIEW: Showing submitted planter pin vs. Project boundary]│                                  │
-│    │                           [Planter Location Pin]               │                                  │
-│    └────────────────────────────────────────────────────────────────┘     [ Reject ] [ Edit ] [ Verify ]│
+│    GPS C                                                         │
+│    ┌──── Rej                                                                       ect ] [ Ediify ]│
 ├────────────────────────────────────────────────────────────────────────────────────────────────────────┤
 │                                                                                                        │
 │ 3. IDENTITY DOCUMENTS                                                            STATUS: [PENDING]      │
